@@ -1,8 +1,6 @@
 #!/bin/bash# install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# TODO: Add Brew install path
-
 # Install apps
 brew install python@3.11
 brew install nvm
@@ -21,6 +19,7 @@ brew install gh
 brew install glances
 brew install htop
 brew install mongosh
+brew install exa
 brew install postgresql@13
 brew install --cask visual-studio-code
 brew install --cask pgadmin4
